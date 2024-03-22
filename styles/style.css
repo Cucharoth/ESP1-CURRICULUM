@@ -36,6 +36,10 @@ ul {
     margin: 5px 0 !important;
 }
 
+a{
+    text-decoration: none !important;
+}
+
 header{
     box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
     0 0 0 1px rgb(0, 0, 0),
@@ -46,6 +50,13 @@ header{
     margin: 20px 200px;
     box-sizing: border-box;
     border-radius: 15px;
+}
+
+.icon{
+    width: 25px;
+    height: 25px;
+    padding-bottom: 3px;
+    padding-left: 6px;
 }
 
 .datos-div{
@@ -66,6 +77,20 @@ header{
 
 .datos-personales{
     display: flex;
+}
+
+.portafolio-div{
+    display: flex;
+}
+
+.portafolio{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.text-portafolio{
+    margin-right: 10px !important;
 }
 
 .imagen-perfil-div{
